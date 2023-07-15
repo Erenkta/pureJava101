@@ -1,0 +1,16 @@
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// int i; //Expression
+		// int x = 10; //Decleration
+		
+		//Aritmetik Operatörler
+		int x = 10; int y = 15;
+		System.out.println(x+y);
+		//x*y , x/y , x-y
+		float yf = 15f;
+		System.out.println(yf + x); //aynı şekilde diğerleri de .0 lı yazılacaktır
+	}
+
+}

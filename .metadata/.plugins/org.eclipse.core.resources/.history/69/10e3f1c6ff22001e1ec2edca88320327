@@ -1,0 +1,30 @@
+package pureJava101.conditions;
+
+import java.util.Scanner;
+
+public class switchConditions {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Sayi1 = ");
+		int sayi1 = scanner.nextInt();
+		System.out.print("Sayi2 = ");
+		int sayi2 = scanner.nextInt();
+		System.out.print("Islem = ");
+		char islem = scanner.nextLine().charAt(0);
+		
+		switch(islem) {
+		case '+':
+			System.out.println(sayi1 + sayi2);
+			break;
+		case '-':
+			System.out.println(Math.abs(sayi1-sayi2));
+			break;
+		case '*':
+			System.out.println(sayi1*sayi2);
+			break;
+		}
+
+	}
+
+}

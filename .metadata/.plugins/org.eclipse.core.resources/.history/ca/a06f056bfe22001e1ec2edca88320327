@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Conditions {
+	public static void main(String[] args) {
+		//If else conditions
+		Scanner scanner = new Scanner(System.in);e
+		enum notlar{
+			AA,BA,BB,CB,CC,DC,DD,FF
+		}
+	}
+}

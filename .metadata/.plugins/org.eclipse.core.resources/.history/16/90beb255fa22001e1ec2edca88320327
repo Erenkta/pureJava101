@@ -1,0 +1,11 @@
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// int i; //Expression
+		// int x = 10; //Decleration
+		
+		//Aritmetik Operatörler
+	}
+
+}
