@@ -1,0 +1,18 @@
+
+public class Statics {
+	//int i = 10
+	static int i;
+	static { //static bir bloktur nesne oluşturulmadan otomatik çağrılır
+		System.out.println("Static Blok Calisti"); //hiçbir şey yapmasak da runtime'da derlendi çalıştı
+		i = 10; //bunun gibi staticlere değer de atayabiliriz
+	}
+	public static void main(String[] args) {
+		//i'ye burdan erişemeyiz çünkü static methodlar sadece static değişkenlere erişebilir
+		System.out.println(i);
+		//Eğer static olmasaydı erişmek için class'tan bir nesne oluşturmalıydık
+		
+		
+		//Static Initializers
+		
+	}
+}

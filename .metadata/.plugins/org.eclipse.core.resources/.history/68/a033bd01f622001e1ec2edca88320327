@@ -1,0 +1,8 @@
+
+public class Statics {
+	//int i = 10
+	static int i = 10;
+	public static void main(String[] args) {
+		//i'ye burdan erişemeyiz çünkü static methodlar sadece static değişkenlere erişebilir
+	}
+}
