@@ -1,0 +1,38 @@
+
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		//Üç farklı şekilde dizi tanımlaması
+		int[] numbers;
+		numbers = new int[12];
+		//int[] numbers = new int[12];
+		//int numbers = {1,2,3,4,5,6,7,8,9,10,11}
+		numbers[5] = 5; //Dizinin 6.elemanı 5 
+		
+		//Çok boyutlu diziler
+		int[][] sayilar = new int [2][3]; //2 satır 3 sütunlu bir tablo
+		sayilar[0][0] = 1;
+		sayilar[1][0] = 2; //Bunun gibi atamalar yapıyoruz
+		
+		for(int i = 0;i<sayilar.length;i++) {
+			for(int j = 0; j< sayilar[i].length;j++) {
+				System.out.println(sayilar[i][j]);
+			}
+		}
+		
+		String[][] ogrenciler = new String[3][2];
+		ogrenciler[0][1] = "a";
+		ogrenciler[1][1] = "al";
+		ogrenciler[2][1] = "ali";
+		
+		for(int i = 0;i<ogrenciler.length;i++) {
+			for(int j = 0; j< ogrenciler[i].length;j++) {
+				System.out.print();
+				System.out.println(ogrenciler[i][j]);
+			}
+		}
+
+	}
+
+}

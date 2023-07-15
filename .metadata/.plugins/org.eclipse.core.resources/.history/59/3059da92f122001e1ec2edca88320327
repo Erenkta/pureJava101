@@ -1,0 +1,19 @@
+import java.sql.Array;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		//Üç farklı şekilde dizi tanımlaması
+		int[] numbers;
+		numbers = new int[12];
+		//int[] numbers = new int[12];
+		//int numbers = {1,2,3,4,5,6,7,8,9,10,11}
+		numbers[5] = 5; //Dizinin 6.elemanı 5 
+		
+		//Çok boyutlu diziler
+		int[][] sayilar = new int [2][3]; //2 satır 3 sütunlu bir tablo
+		sayilar[0][0] = 1;
+
+	}
+
+}

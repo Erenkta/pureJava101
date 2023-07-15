@@ -1,0 +1,14 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		//İki farklı şekilde dizi tanımlaması
+		int[] numbers;
+		numbers = new int[12];
+		
+		int[] numbers2 = new int[12];
+		System.out.println(Arrays.toString(numbers));
+
+	}
+
+}
