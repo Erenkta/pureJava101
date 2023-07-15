@@ -1,0 +1,13 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		//8 adet primitive type bulunmakta
+		byte b;  
+		b = 10;
+		System.out.println(b);
+		
+		short s = 20;
+	}
+
+}

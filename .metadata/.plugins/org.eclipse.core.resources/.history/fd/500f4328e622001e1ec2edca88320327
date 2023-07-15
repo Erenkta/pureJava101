@@ -1,0 +1,34 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		//8 adet primitive type bulunmakta
+		byte b;  //1 byte
+		b = 10;
+		System.out.println(b);
+		
+		short s = 20; //2 byte
+		System.out.println(s);
+		
+		int i = 30; //4 byte
+		System.out.println(i);
+		
+		long l = 40; //8 byte -> en büyüğüdür
+		System.out.println(l);
+		
+		//float pi = 3.14 hata verir çünkü . kullandıklarımızın tipi otomatik olarak doubledır
+		float pi = 3.14f; //bu sayede bu değişkenin float olduğunu söyler //4 byte
+		System.out.println(pi);
+		
+		double d = 22.15; //8 byte
+		System.out.println(d);
+		
+		char c = 'a';//2 byte
+		System.out.println(c);
+		
+		boolean t = true;
+		System.out.println(t);
+				
+	}
+
+}

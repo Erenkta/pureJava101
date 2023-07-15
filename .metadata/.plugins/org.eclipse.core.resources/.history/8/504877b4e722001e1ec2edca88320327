@@ -1,0 +1,23 @@
+
+public class Strings {
+
+	public static void main(String[] args) {
+		//String nesnesi immutable'dır
+		//toString metodu kullanmak !
+		
+		String firstName = "Ahmet";
+		System.out.println(firstName);
+		//charAt
+		System.out.println(firstName.charAt(3)); //4.karakteri döndü
+		//toUpperCase - toLowerCase
+		System.out.println(firstName.toUpperCase());
+		//replace()
+		System.out.println(firstName.replace("e", "a"));
+		//length()
+		System.out.println(firstName.length());
+		//substring(int baslangic) - substring(int baslangic ,int son)
+		System.out.println(firstName.substring(1));
+
+	}
+
+}
