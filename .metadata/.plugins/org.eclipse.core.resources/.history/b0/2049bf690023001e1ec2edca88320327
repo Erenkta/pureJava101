@@ -1,0 +1,6 @@
+
+public class Loops {
+	int x = 0;
+	int y = 100;
+
+}
